@@ -2,8 +2,6 @@
 % This file uses the resume document class (res.cls)
 
 \documentclass{res}
-%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font
 \newsectionwidth{0pt}  % So the text is not indented under section headings
 \usepackage{fancyhdr}  % use this package to get a 2 line header
 \usepackage[usenames, dvipsnames]{color}
@@ -15,19 +13,18 @@
 \textbf{\centerline{\Large Kevin Qiu}}
 
 \centerline{678.860.1699 | kevinqiu1@gmail.com | gh: kevinqiu}
-\centerline{124 Raymond Ave Box 3731}
-\centerline{Poughkeepsie, NY 12604}
-
-
-
+\centerline{1103 Willoughby Ave Apt. 2}
+\centerline{Brooklyn, NY 11237}
 
 \begin{resume}
+
+  \textit{Full Stack Engineer passionate about elegant design and functional programming. Other interests include farming, climbing, and cryptocurrencies}
 
   \vspace{0.2in}
   \section{\centerline{\large Education}}
   \vspace{4pt}
   \textbf{{\large Vassar College}}  \hfill \textsl{Poughkeepsie, NY}  \\
-  \textbf{\color{mygray}\textsl{Computer Science -}} 3.46/4.0 \hfill \textsl{May 2015}
+  \textbf{\color{mygray}\textsl{Computer Science -}} 3.48/4.0 \hfill \textsl{May 2015}
   \begin{itemize} \itemsep -2pt % reduce space between items
   \item Co-president of Vassar Outing Club
   \end{itemize}
@@ -36,11 +33,13 @@
   \section{\centerline{\large Experience}}
   \vspace{4pt}
 
-    \textbf{{\large Vassar College}} \hfill \textsl{Poughkeepsie, NY}     \\
-  \textbf{\color{mygray}\textsl{Miscellany News Webmaster}}     \hfill   \textsl{January 2013 - Present}
+  \textbf{{\large Listenfirst Media}} \hfill \textsl{New York, NY}     \\
+  \textbf{\color{mygray}\textsl{Full Stack Engineer}}     \hfill   \textsl{July 2015 - Present}
 
   \begin{itemize} \itemsep -2pt % reduce space between items
-  \item Maintain and develop Miscellany News website built on Wordpress CMS
+  \item Building new API routes (Go + Rails) to service front end app
+  \item Implementing new features for front end SPA build on Backbone + Coffee
+  \item Extending logic of existing ETL processes (Go + SQL) to load additional data \& perform aggregations in data warehouse (Redshift)
   \end{itemize}
 
 
@@ -48,44 +47,35 @@
   \textbf{\color{mygray}\textsl{Release Engineering Intern}}     \hfill   \textsl{June 2014 - August 2014}
 
   \begin{itemize} \itemsep -2pt % reduce space between items
-  \item Helped design prototype of new product release \& update server
-  \item Implemented prototype server using node.js and frontend with React.js
+  \item Helped design and implement prototype of new product release \& update server (node.js + react.js)
   \item Modified existing product built with C\# to support new prototype server
-  \item Performed releases of new product versions and helped support existing release infrastructure
   \end{itemize}
 
   \textbf{{\large Konnect2}} \hfill \textsl{Green Village, NJ}     \\
   \textbf{\color{mygray}\textsl{Software Engineering Intern}}     \hfill   \textsl{June 2013 - August 2013}
 
   \begin{itemize} \itemsep -2pt % reduce space between items
-  \item Worked with existing engineers in agile environment to develop a web app for the bond market using the Play Framework for Scala
-  \item Added feature enabling users to analyze raw market data feeds
-  \item Created database sampling tool for use in automated build testing suite
-  \item Made recommendations for UI/UX improvements and ensured stable releases to public
+  \item Maintained and developed features (enabled users to analyze raw data feeds) for bond market aggragation web app (Play Framework for Scala)
+  \item Created database sampling tool for use in automated build testing suite (Postgres)
   \end{itemize}
 
-  \textbf{{\large VoodooVox}} \hfill \textsl{Williamstown, MA}     \\
-  \textbf{\color{mygray}\textsl{Software Engineering Intern}}     \hfill   \textsl{July 2010 - August 2010}
+  \section{\centerline{\large Current Projects / Other}}
+  \vspace{4pt}
+  \textbf{farmfeedr - farmfeedr.com:9000} \\
+  Founding partner and sole developer of webapp aimed at helping farmers connect with local consumers. Built on Play for Scala, Postgres, and react.js.
 
-  \begin{itemize} \itemsep -2pt % reduce space between items
-  \item Created application in Java to output advertising statistics as a Twitter Feed
-  \item Created web interface for application using HTML, CSS and Javascript
-  \end{itemize}
+  \textbf{Bushwick Food Coop - IT Committee Member} \\
+  Provide ops and development support to the Bushwick Food Coop(BFC), a member supported cooperative market providing healthy and sustainable food for North Brooklyn.
 
   \vspace{0.2in}
   \section{\centerline{\large Skills}}
   \begin{itemize} \itemsep -3pt
-  \item Web back end (Extensive exp: Play Framwork, node.js)
-  \item Web front end (Extensive exp: HTML, JQuery, ReactJS)
-  \item Relational and Non-relational databases (Extensive exp: PostgreSQL - Familiar with: MongoDB)
-  \item Languages (Extensive exp: Scala, JS - Moderate exp: Java - Familiar with: Scheme, LISP)
+  \item Web back end (Play Framework, node.js, Rails)
+  \item Web front end (React.js, Backbone.js)
+  \item Relational and Non-relational databases (Experienced with: PostgreSQL - Familiar with: MongoDB)
+  \item Languages (Experienced with: Scala, JS, Ruby, Go, Scheme, LISP - Familiar with: Java)
   \item Working collaboratively in a professional development environment (Agile development, git)
   \end{itemize}
-
-  \section{\centerline{\large Personal Projects}}
-  \vspace{4pt}
-  \textbf{farmfeedr - farmfeedr.com:9000} \\
-  Founding partner and sole developer of webapp built on Play for Scala, Postgres, and react.js. Under active development.
 
 \end{resume}
 \end{document}
